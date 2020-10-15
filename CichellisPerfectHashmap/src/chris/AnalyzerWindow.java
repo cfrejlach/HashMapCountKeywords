@@ -18,6 +18,7 @@ import javax.swing.filechooser.FileSystemView;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JScrollPane;
+import java.awt.Font;
 
 public class AnalyzerWindow {
 
@@ -77,7 +78,8 @@ public class AnalyzerWindow {
 		frame.getContentPane().setLayout(null);
 		
 		JLabel lblNewLabel = new JLabel("Press to read a Java source file to count listOfWords and count the lines of code");
-		lblNewLabel.setBounds(28, 11, 396, 29);
+		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 11));
+		lblNewLabel.setBounds(10, 11, 414, 29);
 		frame.getContentPane().add(lblNewLabel);
 		
 		JScrollPane scrollPane = new JScrollPane();

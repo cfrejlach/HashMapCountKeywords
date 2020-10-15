@@ -45,5 +45,5 @@
 1 of key word: void
 0 of key word: volotile
 0 of key word: while
-total time in ms for program to run: 11484
+total time in ms for program to run: 9662
 Lines of code: 62
